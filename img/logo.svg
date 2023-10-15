@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 52.55 59.13">
+  <defs>
+    <linearGradient id="b" x1=".66" y1="17.65" x2="51.89" y2="47.22" gradientTransform="translate(0 62) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2b5cfd"/>
+      <stop offset=".80" stop-color="#589bff"/>
+      <stop offset="100" stop-color="#589bff"/>
+    </linearGradient>
+  </defs>
+  <path d="m0,41.89v-24.63c0-1.77.94-3.4,2.47-4.28L23.8.66c1.53-.88,3.42-.88,4.95,0l21.33,12.31c1.53.88,2.47,2.52,2.47,4.28v24.63c0,1.77-.94,3.4-2.47,4.28l-21.33,12.31c-1.53.88-3.42.88-4.95,0L2.47,46.17c-1.53-.88-2.47-2.51-2.47-4.28Z" style="fill: url(#b);"/>
+  <path d="m9.9,36.63v-15.15c0-1.2.64-2.32,1.68-2.92l13.12-7.58c1.04-.6,2.33-.6,3.37,0l13.12,7.58c1.04.6,1.68,1.71,1.68,2.92v15.15c0,1.2-.64,2.32-1.68,2.92l-13.12,7.58c-1.04.6-2.33.6-3.37,0l-13.12-7.58c-1.04-.6-1.68-1.71-1.68-2.92Z" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 2px;"/>
+  <path d="m15.73,33.98v-9.34c0-1.08.57-2.07,1.51-2.61l8.09-4.67c.93-.54,2.08-.54,3.01,0l8.09,4.67c.93.54,1.51,1.53,1.51,2.61v9.34c0,1.08-.57,2.07-1.51,2.61l-8.09,4.67c-.93.54-2.08.54-3.01,0l-8.09-4.67c-.93-.54-1.51-1.53-1.51-2.61Z" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 2px;"/>
+  <path d="m21.23,32.09v-5.55c0-.29.15-.55.4-.69l4.81-2.77c.25-.14.55-.14.8,0l4.81,2.77c.25.14.4.41.4.69v5.55c0,.29-.15.55-.4.69l-4.81,2.77c-.25.14-.55.14-.8,0l-4.81-2.77c-.25-.14-.4-.41-.4-.69Z" style="fill: #fff; stroke: #fff; stroke-miterlimit: 10; stroke-width: 2px;"/>
+</svg>
