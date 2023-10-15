@@ -1,0 +1,8 @@
+{
+  "label": "Pipelines",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Automação de processos de CI/CD utilizando pipelines do Github Actions, Bitbucket Pipelines, CircleCI e outros."
+  }
+}
