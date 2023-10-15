@@ -21,6 +21,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'hotaydev', // Usually your GitHub org/user name.
   projectName: 'hotaydev.github.io', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -82,19 +83,19 @@ const config = {
             items: [
               {
                 label: 'Docker',
-                to: '/docs/docker',
+                to: '/docs/category/docker',
               },
               {
                 label: 'Pipelines',
-                to: '/docs/pipelines',
+                to: '/docs/category/pipelines',
               },
               {
                 label: 'Segurança',
-                to: '/docs/security',
+                to: '/docs/category/segurança',
               },
               {
                 label: 'Shell Script',
-                to: '/docs/shell-script',
+                to: '/docs/category/shell-script',
               },
             ],
           },

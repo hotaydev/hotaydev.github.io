@@ -1,0 +1,24 @@
+on:
+  push:
+    branches:
+      - main
+
+name: 🚀 Deploy
+jobs:
+  web-deploy:
+    name: 🚀 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest repository code
+      uses: actions/checkout@v3
+
+    - name: 🌳 Configuring Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+
+    - name: 📂 Deploying Code
+      run: |
+        npm install -g pnpm
+        pnpm install
+        pnpm run deploy
