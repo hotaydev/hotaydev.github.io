@@ -15,11 +15,12 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
+  trailingSlash: true,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'hotaydev', // Usually your GitHub org/user name.
-  projectName: 'useful-resources', // Usually your repo name.
+  projectName: 'hotaydev.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -40,7 +41,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/hotaydev/useful-resources/tree/main/',
+            'https://github.com/hotaydev/hotaydev.github.io/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -67,7 +68,7 @@ const config = {
             label: 'Documentações',
           },
           {
-            href: 'https://github.com/hotaydev/useful-resources',
+            href: 'https://github.com/hotaydev/hotaydev.github.io',
             label: 'GitHub',
             position: 'right',
           },
@@ -119,7 +120,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/hotaydev/useful-resources',
+                href: 'https://github.com/hotaydev/hotaydev.github.io',
               },
               {
                 label: 'Site da Hotay',
