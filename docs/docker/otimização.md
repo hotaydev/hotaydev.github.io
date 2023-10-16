@@ -73,7 +73,7 @@ RUN npm ci
 COPY --from=builder /var/www/dist/ .
 ```
 
-9. Adicione um usuário sem acesso root ([para mais informações, clique aqui](./security/)):
+9. Adicione um usuário sem acesso root ([para mais informações, clique aqui](../security/)):
 ```shell
 RUN addgroup -S nonroot && adduser -S nonroot -G nonroot
 USER nonroot
